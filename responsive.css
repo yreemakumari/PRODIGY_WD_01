@@ -1,0 +1,100 @@
+/* We do this by adding one more media query (at 600px),
+ and a set of new classes for devices larger than 600px (but smaller than 768px) */
+@media only screen and (max-width:450px){
+    body{
+        overflow-x: hidden;
+    }
+    .sec{
+        width: 100vw;
+        /* height: 700px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 2500px;
+
+    }
+    .card{
+        margin: 15px 20px;
+        border: 1px solid black;
+        height: 550px;
+        width:100vw ;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec3{
+        width: 100vw;
+        /* height: 700px; */
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        height: 2500px;
+}
+.sec5{
+    height: 200px;
+  
+}
+.sec4{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.down button{
+    height: 60px;
+}
+.down h1{
+    text-align: center;
+}
+.sec6 .ab1{
+    display: none;
+}
+.lg{
+    display: none;
+}
+.d1 h1{
+    font-size: 40px;
+    padding: 10px 20px;
+    display: none;
+}
+.main{
+    height: 100vh;
+}
+.dd2 .font h1{
+    font-size: 50px;
+}
+.d2{
+    display: none;
+}
+.thought{
+    display: none;
+}
+
+.sec2 .left,.right{
+    display: none;
+}
+.sec2{
+    display: none;
+    justify-content: center;
+    height: 500px;
+}
+.hero2{
+  width: 100vw;  
+}
+}
+  
+
+
+
+  
+
+  
